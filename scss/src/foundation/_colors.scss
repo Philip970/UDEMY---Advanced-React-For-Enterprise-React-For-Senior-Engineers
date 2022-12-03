@@ -29,3 +29,16 @@ $form-bg: var(--dse-form-bg, $white) !default;
 $form-error-color: var(--dse-form-error-color, $red) !default;
 $form-error-border: var(--dse-form-error-border, $red) !default;
 $form-border-focus-color: var(--dse-form-border-focus-color, $green) !default;
+
+/*----------  Assignment  ----------*/
+
+/*=============================================
+=                   App bar                   =
+=============================================*/
+
+$appbar-bg-color: var(--dse-appbar-bg-color, $blue) !default;
+$appbar-text-color: var(--dse-appbar-text-color, $white) !default;
+$appbar-elevation-color: var(
+  --dse-appbar-elevation-color,
+  $gray-light
+) !default;
