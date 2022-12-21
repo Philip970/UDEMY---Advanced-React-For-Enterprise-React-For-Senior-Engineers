@@ -1,0 +1,23 @@
+{
+  "name": "@ds.e/core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Philip970/DS.E.git",
+  "author": "Philip970 <philip.ewane97@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/normalize-scss"
+    ]
+  },
+  "scripts": {
+    "build": "yarn lerna run build"
+  }
+}
